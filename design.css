@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Upload_App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px 0;
+}
+
+.filesInputs {
+    background-color: hsl(0, 0%, 95%);
+    /* background-color: hsl(0, 100%, 68%); */
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.textInputs {
+    margin: 10px;
+    width: 80%;
+    border: 2px solid hsl(200, 100%, 50%);
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+#uploadButton {
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    background-color: hsl(200, 100%, 50%);
+    margin: 10px;
+    cursor: pointer;
+}
+
+#uploadButton:active {
+    scale: 110%;
+}
