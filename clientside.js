@@ -2,7 +2,7 @@
         const fileInputs = document.querySelectorAll('.filesInputs');
         const textInputs = document.querySelectorAll('.textInputs');
 
-        const serverUrl = 'http://localhost:3000';
+        const serverUrl = 'https://drop-uploader-app-serverside.onrender.com';
 
         // Add event listeners to file inputs to display thumbnails
 fileInputs.forEach((input, index) => {
